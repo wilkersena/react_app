@@ -1,7 +1,8 @@
 import React from 'react';
 import NavComp from './components/NavBar';
-import CardProducts from './components/CardsProducts';
+import CardPeople from './components/CardsPeople';
 import {Row, Jumbotron, Container} from 'react-bootstrap';
+
 
 
 
@@ -11,9 +12,9 @@ function App() {
       <header className="App-header">
         <NavComp/>
           <Container>
-            <Jumbotron className="m-auto">
+            <Jumbotron>
               <Row>
-                <CardProducts/>
+                <CardPeople/>
               </Row>
             </Jumbotron>
           </Container>
